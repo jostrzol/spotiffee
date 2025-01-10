@@ -16,7 +16,7 @@ go install github.com/jostrzol/spotiffee/cmd/spotiffee@latest
 
 For autostart:
 
-1. Copy the contents of ./service/Spotiffee.service to `$HOME/.config/systemd/user/Spotiffee.service`
+1. Copy the contents of [Spotiffee.service](./service/Spotiffee.service) to `$HOME/.config/systemd/user/Spotiffee.service`
 2. `systemctl --user daemon-reload`
 3. `systemctl --user enable Spotiffee.service`
 4. `systemctl --user start Spotiffee.service`
