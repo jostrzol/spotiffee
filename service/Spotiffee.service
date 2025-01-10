@@ -10,4 +10,4 @@ RestartSec=1
 ExecStart=/usr/bin/env spotiffee
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=gnome-session-initialized.target
