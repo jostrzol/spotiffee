@@ -1,0 +1,13 @@
+[Unit]
+Description=Blocks GNOME from automatically suspending the system when spotify is playing.
+After=gnome-session-initialized.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/env spotiffee
+
+[Install]
+WantedBy=multi-user.target
