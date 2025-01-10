@@ -1,4 +1,4 @@
-module github.com/jostrzol/spotiffe
+module github.com/jostrzol/spotiffee
 
 go 1.23.4
 
