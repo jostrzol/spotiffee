@@ -1,8 +1,4 @@
-# Spotiffee
-
-☕ for 🎵 Spotify
-
-## Desciption
+# Spotiffee (☕ for Spotify 🎵)
 
 Blocks GNOME from automatically suspending the system when spotify is playing.
 

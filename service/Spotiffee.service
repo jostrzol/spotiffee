@@ -1,5 +1,5 @@
 [Unit]
-Description=Blocks GNOME from automatically suspending the system when spotify is playing.
+Description=Spotiffee
 After=gnome-session-initialized.target
 StartLimitIntervalSec=0
 
